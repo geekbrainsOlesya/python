@@ -2,19 +2,19 @@ from itertools import count
 from itertools import cycle
 
 
-# for el in count(4):
-#     if el > 15:
-#         break
-#     else:
-#         print(el)
+for el in count(4):
+    if el > 15:
+        break
+    else:
+        print(el)
 
 #*******************************************
-# c = 0
-# for el in cycle("ABC"):
-#     if c > 10:
-#         break
-#     print(el)
-#     c += 1
+c = 0
+for el in cycle("ABC"):
+    if c > 10:
+        break
+    print(el)
+    c += 1
 #***************** СОВМЕЩЕННОЕ РЕШЕНИЕ******
 
 def my_func():
